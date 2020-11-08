@@ -98,7 +98,8 @@ function draw() {
     textAlign(CENTER);
     text("Loading..", windowWidth/2, windowHeight/8*7);
     // open new window
-    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+    window.open("start.html", "_self");
+    //window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
   }
   // Display Image
   let hangmanHeight = windowHeight/2;
