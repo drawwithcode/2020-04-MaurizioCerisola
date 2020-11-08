@@ -1,0 +1,643 @@
+﻿{
+    "words": [
+        {
+            "word": "ABRUPTLY"
+        },
+        {
+            "word": "ABSURD"
+        },
+        {
+            "word": "ABYSS"
+        },
+        {
+            "word": "AFFIX"
+        },
+        {
+            "word": "ASKEW"
+        },
+        {
+            "word": "AVENUE"
+        },
+        {
+            "word": "AWKWARD"
+        },
+        {
+            "word": "AXIOM"
+        },
+        {
+            "word": "AZURE"
+        },
+        {
+            "word": "BAGPIPES"
+        },
+        {
+            "word": "BANDWAGON"
+        },
+        {
+            "word": "BANJO"
+        },
+        {
+            "word": "BAYOU"
+        },
+        {
+            "word": "BEEKEEPER"
+        },
+        {
+            "word": "BIKINI"
+        },
+        {
+            "word": "BLITZ"
+        },
+        {
+            "word": "BLIZZARD"
+        },
+        {
+            "word": "BOGGLE"
+        },
+        {
+            "word": "BOOKWORM"
+        },
+        {
+            "word": "BOXCAR"
+        },
+        {
+            "word": "BOXFUL"
+        },
+        {
+            "word": "BUCKAROO"
+        },
+        {
+            "word": "BUFFALO"
+        },
+        {
+            "word": "BUFFOON"
+        },
+        {
+            "word": "BUXOM"
+        },
+        {
+            "word": "BUZZARD"
+        },
+        {
+            "word": "BUZZING"
+        },
+        {
+            "word": "BUZZWORDS"
+        },
+        {
+            "word": "CALIPH"
+        },
+        {
+            "word": "COBWEB"
+        },
+        {
+            "word": "COCKINESS"
+        },
+        {
+            "word": "CROQUET"
+        },
+        {
+            "word": "CRYPT"
+        },
+        {
+            "word": "CURACAO"
+        },
+        {
+            "word": "CYCLE"
+        },
+        {
+            "word": "DAIQUIRI"
+        },
+        {
+            "word": "DIRNDL"
+        },
+        {
+            "word": "DISAVOW"
+        },
+        {
+            "word": "DIZZYING"
+        },
+        {
+            "word": "DUPLEX"
+        },
+        {
+            "word": "DWARVES"
+        },
+        {
+            "word": "EMBEZZLE"
+        },
+        {
+            "word": "EQUIP"
+        },
+        {
+            "word": "ESPIONAGE"
+        },
+        {
+            "word": "EUOUAE"
+        },
+        {
+            "word": "EXODUS"
+        },
+        {
+            "word": "FAKING"
+        },
+        {
+            "word": "FISHHOOK"
+        },
+        {
+            "word": "FIXABLE"
+        },
+        {
+            "word": "FJORD"
+        },
+        {
+            "word": "FLAPJACK"
+        },
+        {
+            "word": "FLOPPING"
+        },
+        {
+            "word": "FLUFFINESS"
+        },
+        {
+            "word": "FLYBY"
+        },
+        {
+            "word": "FOXGLOVE"
+        },
+        {
+            "word": "FRAZZLED"
+        },
+        {
+            "word": "FRIZZLED"
+        },
+        {
+            "word": "FUCHSIA"
+        },
+        {
+            "word": "FUNNY"
+        },
+        {
+            "word": "GABBY"
+        },
+        {
+            "word": "GALAXY"
+        },
+        {
+            "word": "GALVANIZE"
+        },
+        {
+            "word": "GAZEBO"
+        },
+        {
+            "word": "GIAOUR"
+        },
+        {
+            "word": "GIZMO"
+        },
+        {
+            "word": "GLOWWORM"
+        },
+        {
+            "word": "GLYPH"
+        },
+        {
+            "word": "GNARLY"
+        },
+        {
+            "word": "GNOSTIC"
+        },
+        {
+            "word": "GOSSIP"
+        },
+        {
+            "word": "GROGGINESS"
+        },
+        {
+            "word": "HAIKU"
+        },
+        {
+            "word": "HAPHAZARD"
+        },
+        {
+            "word": "HYPHEN"
+        },
+        {
+            "word": "IATROGENIC"
+        },
+        {
+            "word": "ICEBOX"
+        },
+        {
+            "word": "INJURY"
+        },
+        {
+            "word": "IVORY"
+        },
+        {
+            "word": "IVY"
+        },
+        {
+            "word": "JACKPOT"
+        },
+        {
+            "word": "JAUNDICE"
+        },
+        {
+            "word": "JAWBREAKER"
+        },
+        {
+            "word": "JAYWALK"
+        },
+        {
+            "word": "JAZZIEST"
+        },
+        {
+            "word": "JAZZY"
+        },
+        {
+            "word": "JELLY"
+        },
+        {
+            "word": "JIGSAW"
+        },
+        {
+            "word": "JINX"
+        },
+        {
+            "word": "JIUJITSU"
+        },
+        {
+            "word": "JOCKEY"
+        },
+        {
+            "word": "JOGGING"
+        },
+        {
+            "word": "JOKING"
+        },
+        {
+            "word": "JOVIAL"
+        },
+        {
+            "word": "JOYFUL"
+        },
+        {
+            "word": "JUICY"
+        },
+        {
+            "word": "JUKEBOX"
+        },
+        {
+            "word": "JUMBO"
+        },
+        {
+            "word": "KAYAK"
+        },
+        {
+            "word": "KAZOO"
+        },
+        {
+            "word": "KEYHOLE"
+        },
+        {
+            "word": "KHAKI"
+        },
+        {
+            "word": "KILOBYTE"
+        },
+        {
+            "word": "KIOSK"
+        },
+        {
+            "word": "KITSCH"
+        },
+        {
+            "word": "KIWIFRUIT"
+        },
+        {
+            "word": "KLUTZ"
+        },
+        {
+            "word": "KNAPSACK"
+        },
+        {
+            "word": "LARYNX"
+        },
+        {
+            "word": "LENGTHS"
+        },
+        {
+            "word": "LUCKY"
+        },
+        {
+            "word": "LUXURY"
+        },
+        {
+            "word": "LYMPH"
+        },
+        {
+            "word": "MARQUIS"
+        },
+        {
+            "word": "MATRIX"
+        },
+        {
+            "word": "MEGAHERTZ"
+        },
+        {
+            "word": "MICROWAVE"
+        },
+        {
+            "word": "MNEMONIC"
+        },
+        {
+            "word": "MYSTIFY"
+        },
+        {
+            "word": "NAPHTHA"
+        },
+        {
+            "word": "NIGHTCLUB"
+        },
+        {
+            "word": "NOWADAYS"
+        },
+        {
+            "word": "NUMBSKULL"
+        },
+        {
+            "word": "NYMPH"
+        },
+        {
+            "word": "ONYX"
+        },
+        {
+            "word": "OVARY"
+        },
+        {
+            "word": "OXIDIZE"
+        },
+        {
+            "word": "OXYGEN"
+        },
+        {
+            "word": "PAJAMA"
+        },
+        {
+            "word": "PEEKABOO"
+        },
+        {
+            "word": "PHLEGM"
+        },
+        {
+            "word": "PIXEL"
+        },
+        {
+            "word": "PIZAZZ"
+        },
+        {
+            "word": "PNEUMONIA"
+        },
+        {
+            "word": "POLKA"
+        },
+        {
+            "word": "PSHAW"
+        },
+        {
+            "word": "PSYCHE"
+        },
+        {
+            "word": "PUPPY"
+        },
+        {
+            "word": "PUZZLING"
+        },
+        {
+            "word": "QUARTZ"
+        },
+        {
+            "word": "QUEUE"
+        },
+        {
+            "word": "QUIPS"
+        },
+        {
+            "word": "QUIXOTIC"
+        },
+        {
+            "word": "QUIZ"
+        },
+        {
+            "word": "QUIZZES"
+        },
+        {
+            "word": "QUORUM"
+        },
+        {
+            "word": "RAZZMATAZZ"
+        },
+        {
+            "word": "RHUBARB"
+        },
+        {
+            "word": "RHYTHM"
+        },
+        {
+            "word": "RICKSHAW"
+        },
+        {
+            "word": "SCHNAPPS"
+        },
+        {
+            "word": "SCRATCH"
+        },
+        {
+            "word": "SHIV"
+        },
+        {
+            "word": "SNAZZY"
+        },
+        {
+            "word": "SPHINX"
+        },
+        {
+            "word": "SPRITZ"
+        },
+        {
+            "word": "SQUAWK"
+        },
+        {
+            "word": "STAFF"
+        },
+        {
+            "word": "STRENGTH"
+        },
+        {
+            "word": "STRENGTHS"
+        },
+        {
+            "word": "STRETCH"
+        },
+        {
+            "word": "STRONGHOLD"
+        },
+        {
+            "word": "STYMIED"
+        },
+        {
+            "word": "SUBWAY"
+        },
+        {
+            "word": "SWIVEL"
+        },
+        {
+            "word": "SYNDROME"
+        },
+        {
+            "word": "THRIFTLESS"
+        },
+        {
+            "word": "THUMBSCREW"
+        },
+        {
+            "word": "TOPAZ"
+        },
+        {
+            "word": "TRANSCRIPT"
+        },
+        {
+            "word": "TRANSGRESS"
+        },
+        {
+            "word": "TRANSPLANT"
+        },
+        {
+            "word": "TRIPHTHONG"
+        },
+        {
+            "word": "TWELFTH"
+        },
+        {
+            "word": "TWELFTHS"
+        },
+        {
+            "word": "UNKNOWN"
+        },
+        {
+            "word": "UNWORTHY"
+        },
+        {
+            "word": "UNZIP"
+        },
+        {
+            "word": "UPTOWN"
+        },
+        {
+            "word": "VAPORIZE"
+        },
+        {
+            "word": "VIXEN"
+        },
+        {
+            "word": "VODKA"
+        },
+        {
+            "word": "VOODOO"
+        },
+        {
+            "word": "VORTEX"
+        },
+        {
+            "word": "VOYEURISM"
+        },
+        {
+            "word": "WALKWAY"
+        },
+        {
+            "word": "WALTZ"
+        },
+        {
+            "word": "WAVE"
+        },
+        {
+            "word": "WAVY"
+        },
+        {
+            "word": "WAXY"
+        },
+        {
+            "word": "WELLSPRING"
+        },
+        {
+            "word": "WHEEZY"
+        },
+        {
+            "word": "WHISKEY"
+        },
+        {
+            "word": "WHIZZING"
+        },
+        {
+            "word": "WHOMEVER"
+        },
+        {
+            "word": "WIMPY"
+        },
+        {
+            "word": "WITCHCRAFT"
+        },
+        {
+            "word": "WIZARD"
+        },
+        {
+            "word": "WOOZY"
+        },
+        {
+            "word": "WRISTWATCH"
+        },
+        {
+            "word": "WYVERN"
+        },
+        {
+            "word": "XYLOPHONE"
+        },
+        {
+            "word": "YACHTSMAN"
+        },
+        {
+            "word": "YIPPEE"
+        },
+        {
+            "word": "YOKED"
+        },
+        {
+            "word": "YOUTHFUL"
+        },
+        {
+            "word": "YUMMY"
+        },
+        {
+            "word": "ZEPHYR"
+        },
+        {
+            "word": "ZIGZAG"
+        },
+        {
+            "word": "ZIGZAGGING"
+        },
+        {
+            "word": "ZILCH"
+        },
+        {
+            "word": "ZIPPER"
+        },
+        {
+            "word": "ZODIAC"
+        },
+        {
+            "word": "ZOMBIE"
+        }
+    ]
+}
