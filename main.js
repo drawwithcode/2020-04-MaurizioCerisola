@@ -81,18 +81,25 @@ function setup() {
 
 function draw() {
   let diagonal = pow(pow(windowWidth,2)+pow(windowHeight,2), 0.5);
-  // won/lost check
-  if (won || lost) {
-    let buttons = selectAll("button");
-    buttons.forEach(function (button) {
-      button.attribute('disabled','true');
-    });
-    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
-  }
   // wallpaper
   wpHeight = windowHeight;
   wpWidth = wpHeight/wallpaper.height*wallpaper.width;
   image(wallpaper, windowWidth/2, windowHeight/2, wpWidth, wpHeight);
+  // won/lost check
+  if (won || lost) {
+    // disable all buttons
+    let buttons = selectAll("button");
+    buttons.forEach(function (button) {
+      button.attribute('disabled','true');
+    });
+    // loading.. text
+    textSize(pow(pow(windowHeight,2)+pow(windowWidth,2), 0.5)/30);
+    textFont("Comic Sans MS");
+    textAlign(CENTER);
+    text("Loading..", windowWidth/2, windowHeight/8*7);
+    // open new window
+    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+  }
   // Display Image
   let hangmanHeight = windowHeight/2;
   let hangmanWidth = hangmanHeight/hangmans[errors].height * hangmans[errors].width;
