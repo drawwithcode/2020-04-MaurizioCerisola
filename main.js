@@ -81,6 +81,10 @@ function setup() {
 
 function draw() {
   let diagonal = pow(pow(windowWidth,2)+pow(windowHeight,2), 0.5);
+  // won/lost check
+  if (won || lost) {
+    window.open(url.href.slice(0,url.href.length-10) + "/end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+  }
   // wallpaper
   wpHeight = windowHeight;
   wpWidth = wpHeight/wallpaper.height*wallpaper.width;
@@ -114,10 +118,6 @@ function draw() {
     buttons[i].position(xPosition-xSizeB/2, yPosition-ySizeB/2);
     buttons[i].style("font-size", diagonal/60+"px");
     }
-  // won/lost check
-  if (won || lost) {
-    window.open(url.href.slice(0,url.href.length-10) + "/end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
-  }
 }
 
 function check(letter) {
