@@ -77,6 +77,12 @@ function setup() {
   div.style("font-family", "Comic Sans MS");
   div.style("border", diagonal/200+"px solid black");
   div.style("text-align", "center");
+
+  //button extra
+  let button = createButton("GO");
+  button.mousePressed(function() {
+    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+  });
 }
 
 function draw() {
@@ -98,8 +104,7 @@ function draw() {
     textAlign(CENTER);
     text("Loading..", windowWidth/2, windowHeight/8*7);
     // open new window
-    window.open("start.html", "_self");
-    //window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
   }
   // Display Image
   let hangmanHeight = windowHeight/2;
