@@ -84,7 +84,7 @@ function draw() {
   // won/lost check
   if (won || lost) {
     console.log("gioco finito");
-    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+    //window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
   }
   // wallpaper
   wpHeight = windowHeight;
