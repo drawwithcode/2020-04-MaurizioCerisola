@@ -116,8 +116,7 @@ function draw() {
     }
   // won/lost check
   if (won || lost) {
-    let newURL = url.href.slice(0,url.href.length-10) + "/end.html?victory=" + won +"&pickedWord=" + pickedWord;
-    window.open(newURL, "_self");
+    window.open(url.href.slice(0,url.href.length-10) + "/end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
   }
 }
 
