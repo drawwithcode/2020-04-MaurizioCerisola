@@ -83,7 +83,7 @@ function draw() {
   let diagonal = pow(pow(windowWidth,2)+pow(windowHeight,2), 0.5);
   // won/lost check
   if (won || lost) {
-    window.open(url.href.slice(0,url.href.length-10) + "/end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
   }
   // wallpaper
   wpHeight = windowHeight;
