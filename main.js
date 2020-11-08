@@ -83,7 +83,10 @@ function draw() {
   let diagonal = pow(pow(windowWidth,2)+pow(windowHeight,2), 0.5);
   // won/lost check
   if (won || lost) {
-    //console.log("gioco finito");
+    let buttons = selectAll("button");
+    buttons.forEach(function (button) {
+      button.attribute('disabled','true');
+    });
     window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
   }
   // wallpaper
