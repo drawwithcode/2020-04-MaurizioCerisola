@@ -6,6 +6,7 @@ var alphabet;
 var words;
 // Buttons
 var buttons = [];
+var finished;
 // Div
 var div;
 // other
@@ -61,6 +62,19 @@ function setup() {
       buttons[i].attribute('disabled','true');
     });
   }
+  // finished button
+  finished = createButton("FINISHED");
+  let xSizeBF = windowWidth/7;
+  let ySizeBF = windowHeight/14;
+  finished.size(xSizeBF, ySizeBF);
+  finished.position(windowWidth/2-xSizeBF/2, windowHeight/9*8-ySizeBF);
+  finished.style("font-size", diagonal/60+"px");
+  finished.style("font-family", "Comic Sans MS");
+  finished.style('background-color', color("#38b000"));
+  finished.style("text-align", "center");
+  finished.mousePressed(function() {
+    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+  });
   // pick a random word from the dataset
   pickedWord = random(words["words"])["word"];
   //pickedWord = "PICKED";
@@ -77,12 +91,6 @@ function setup() {
   div.style("font-family", "Comic Sans MS");
   div.style("border", diagonal/200+"px solid black");
   div.style("text-align", "center");
-
-  //button extra
-  let button = createButton("GO");
-  button.mousePressed(function() {
-    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
-  });
 }
 
 function draw() {
@@ -93,18 +101,10 @@ function draw() {
   image(wallpaper, windowWidth/2, windowHeight/2, wpWidth, wpHeight);
   // won/lost check
   if (won || lost) {
-    // disable all buttons
-    let buttons = selectAll("button");
-    buttons.forEach(function (button) {
-      button.attribute('disabled','true');
-    });
-    // loading.. text
-    textSize(pow(pow(windowHeight,2)+pow(windowWidth,2), 0.5)/30);
-    textFont("Comic Sans MS");
-    textAlign(CENTER);
-    text("Loading..", windowWidth/2, windowHeight/8*7);
-    // open new window
-    window.open("end.html?victory=" + won +"&pickedWord=" + pickedWord, "_self");
+    // disable all alphabet buttons
+    for(let i=0; i<buttons.length; i++) {
+      buttons[i].attribute('disabled','true');
+    }
   }
   // Display Image
   let hangmanHeight = windowHeight/2;
@@ -117,7 +117,7 @@ function draw() {
   div.position(windowWidth/2-xSizeD/2, windowHeight/8-ySizeD/2);
   div.style("font-size", diagonal/30+"px");
   div.style("border", diagonal/200+"px solid black");
-  // resize buttons
+  // resize alphabet buttons
   for(let i=0; i<alphabet["alphabet"].length; i++) {
     let xSizeB = windowWidth/30;
     let ySizeB = xSizeB;
@@ -135,6 +135,12 @@ function draw() {
     buttons[i].position(xPosition-xSizeB/2, yPosition-ySizeB/2);
     buttons[i].style("font-size", diagonal/60+"px");
     }
+    // resize finished button
+    let xSizeBF = windowWidth/7;
+    let ySizeBF = windowHeight/14;
+    finished.size(xSizeBF, ySizeBF);
+    finished.position(windowWidth/2-xSizeBF/2, windowHeight/9*8-ySizeBF);
+    finished.style("font-size", diagonal/60+"px");
 }
 
 function check(letter) {
