@@ -28,8 +28,8 @@ function setup() {
   imageMode(CENTER);
   let diagonal = pow(pow(windowWidth, 2) + pow(windowHeight, 2), 0.5);
   // webcam
-  capture = createCapture(VIDEO);
-  capture.hide();
+  /*capture = createCapture(VIDEO);
+  capture.hide();*/
   // Button
   let xSizeB = windowWidth/6;
   let ySizeB = windowHeight/13;
@@ -99,11 +99,11 @@ function draw() {
   divP.position(windowWidth/2-xSizeDP/2, windowHeight*2/3-ySizeDP/2);
   divP.style("font-size", diagonal/30+"px");
   //webcam
-  if (capture.loadedmetadata) {
+  /*if (capture.loadedmetadata) {
     let camHeight = windowHeight*2/5;
     let camWidth = camHeight/capture.height * capture.width;
     image(capture, windowWidth/2, windowHeight*2/5, camWidth, camHeight);
-  }
+  }*/
   //hat
   let hatHeight;
   let hatWidth;
